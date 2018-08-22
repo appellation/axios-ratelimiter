@@ -1,0 +1,21 @@
+{
+  "name": "axios-ratelimiter",
+  "version": "0.1.0",
+  "description": "A module to handle querying ratelimited endpoints using Axios.",
+  "main": "dist/index.js",
+  "repository": "https://github.com/appellation/axios-ratelimiter.git",
+  "author": "Will Nelson <will@pleb.xyz>",
+  "license": "MIT",
+  "scripts": {
+    "prepare": "gulp"
+  },
+  "devDependencies": {
+    "axios": "^0.18.0",
+    "del": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-typescript": "^5.0.0-alpha.3",
+    "merge-stream": "^1.0.1",
+    "typescript": "^3.0.1"
+  }
+}
